@@ -11,8 +11,8 @@ public class Rock : Weapon
     public void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        force = new Vector2(GetShootDiection() *10, 100);
-        Damage = 20;
+        force = new Vector2(GetShootDiection() *100, 200);
+        Damage = 2;
         Move();
     }
 

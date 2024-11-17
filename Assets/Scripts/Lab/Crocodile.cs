@@ -20,7 +20,7 @@ public class Crocodile : Enemy, IShootable
         Init(30);
         BulletTimer = 0.0f;
         BulletSpawnTime = 1.0f;
-        DamageHit = 30;
+        DamageHit = 2;
         player = GameObject.FindObjectOfType<Player>();
 
     }
